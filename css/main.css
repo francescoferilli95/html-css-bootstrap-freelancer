@@ -1,0 +1,16 @@
+/*GENERAL*/
+
+.box {
+    text-align: center;
+    padding: 10px;
+    background: #ac3d31;
+    border: 1px solid rgba(0,0,0, .4);
+}
+
+/*MAIN HEADER*/
+
+.main-header {
+    background: #2c3e50;
+    padding: 20px;
+    height: 90px;
+}
