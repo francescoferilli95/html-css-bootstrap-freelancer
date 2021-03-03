@@ -14,3 +14,11 @@
     padding: 20px;
     height: 90px;
 }
+
+/*HERO*/
+
+.hero {
+    background: #1abc9c;
+    padding: 50px;
+    height: 200px;
+}
