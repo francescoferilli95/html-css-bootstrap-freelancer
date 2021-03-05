@@ -122,41 +122,7 @@ h6 {
 .portfolio img {
     width: 100%;
     border-radius: 10px;
-}
-
-.portfolio .mrgn-bot {
     margin-bottom: 30px;
-    margin-left: 0;
-    margin-right: 0;
-}
-.portfolio .ta-overlay img {
-    overflow: hidden;
-}
-.portfolio .overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .3s;
-  background-color: #1abc9c;
-}
-
-.portfolio i {
-  color: white;
-  font-size: 100px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.portfolio .overlay:hover {
-    opacity: .7;
 }
 
 /*ABOUT*/
