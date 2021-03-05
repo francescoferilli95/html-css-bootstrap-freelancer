@@ -34,12 +34,55 @@ body {
  border-color: #fff;
 }
 
-/*HERO*/
+/*JUMBOTRON*/
 
-.hero {
+.jumbotron {
+    color: #fff;
     background: #1abc9c;
-    height: 200px;
 }
+
+.jumbotron img {
+    width: 20%;
+}
+
+.jumbotron h2 {
+    font-size: 70px;
+}
+
+.jumbotron h3 {
+    display: inline;
+    font-size: 30px;
+}
+
+.jumbotron .divider {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.jumbotron .divider .ta-icon {
+    vertical-align: middle;
+    font-size: 35px;
+    padding: 0 30px;
+}
+
+.jumbotron .divider::before,
+.jumbotron .divider::after {
+    content: '';
+    display: inline-block;
+    height: 4px;
+    width: 18%;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background: #fff;
+}
+
+
+
+
+
+
+
+
 
 .about {
     background: #1abc9c;
