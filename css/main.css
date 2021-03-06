@@ -1,14 +1,9 @@
 /*GENERAL*/
 
-.box {
-    text-align: center;
-    padding: 10px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    background: #ac3d31;
-    border: 1px solid rgba(0,0,0, .4);
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 90px;
 }
-
 body {
     padding-top: 90px;
 }
@@ -119,10 +114,36 @@ h6 {
     background: #2c3e50;
 }
 
-.portfolio img {
-    width: 100%;
-    border-radius: 10px;
-    margin-bottom: 30px;
+.portfolio .overlay {
+    position: relative;
+    margin-top: 30px;
+    overflow: hidden;
+    border-radius: 6px;
+}
+
+.portfolio .icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #1abc9c;
+    opacity: 0;
+    transition: opacity .3s;
+}
+
+.portfolio .icon i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-size: 70px;
+}
+
+.portfolio .overlay:hover .icon {
+    opacity: 1;
+    cursor: pointer;
 }
 
 /*ABOUT*/
